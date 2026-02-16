@@ -1,0 +1,51 @@
+
+body {
+    padding: 40px;
+
+    font-family: "Arial", "Helvetica", sans-serif;
+
+    display: flex;
+    justify-content: center;
+}
+
+.page-container {
+    padding: 40px 30px;
+
+    max-width: 600px;
+    width: 100%;
+
+
+    border: 1px solid;
+}
+
+.main-title {
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 28px;
+
+    text-transform: uppercase;
+}
+
+.subtitle {
+    margin-bottom: 40px;
+
+    font-size: 14px;
+}
+
+.blocks-list {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid;
+}
+
+.block-item {
+    padding: 25px 30px;
+    gap: 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid;
+}
