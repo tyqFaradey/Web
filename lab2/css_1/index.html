@@ -3,72 +3,98 @@
 <head>
     <title>Дела</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-    <script src="https://kit.fontawesome.com/94f929e23f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <div class="page-container">
-        <h1 class="main-title">Список дел</h1>
 
-        <div class="controls">
-            <input class="tasks-input" placeholder="1234567"/>
-            <button class="create-btn">Создать</button>
-            <button class="clear-btn">Отчистить всё</button>
+    <header>
+        <div class="page-container title-animation main-header">
+            <img src="background.png" alt="Лого" class="header-img">
+            <h1 class="main-title">Список дел</h1>
         </div>
+    </header>
 
-        <div class="tasks-list">
+    <main>
+        <div class="page-container">
 
-            <div class="task-item ">
-                <i class="fas fa-check"></i>
-                <p>task name</p>
-                <i class="fas fa-xmark"></i>
-            </div>
-            <div class="task-item ">
-                <i class="fas fa-check"></i>
-                <p>task name</p>
-                <i class="fas fa-xmark"></i>
-            </div>
-            <div class="task-item done">
-                <i class="fas fa-check"></i>
-                <p>task name</p>
-                <i class="fas fa-xmark"></i>
-            </div>
-            <div class="task-item done">
-                <i class="fas fa-check"></i>
-                <p>task name</p>
-                <i class="fas fa-xmark"></i>
-            </div>
-            <div class="task-item ">
-                <i class="fas fa-check"></i>
-                <p>task name</p>
-                <i class="fas fa-xmark"></i>
-            </div>
-            <div class="task-item ">
-                <i class="fas fa-check"></i>
-                <p>task name</p>
-                <i class="fas fa-xmark"></i>
-            </div>
-            <div class="task-item done">
-                <i class="fas fa-check"></i>
-                <p>task name</p>
-                <i class="fas fa-xmark"></i>
-            </div>
-            <div class="task-item ">
-                <i class="fas fa-check"></i>
-                <p>task name</p>
-                <i class="fas fa-xmark"></i>
+            <div class="controls">
+                <input class="tasks-input" pla  ceholder="1234567"/>
+                <button class="btn create-btn">Создать</button>
+                <button class="btn clear-btn">Отчистить всё</button>
             </div>
 
+            <ul class="tasks-list">
+            <li class="task-item">
+                <input type="checkbox" class="icon check-icon"/>
+                <div class="task-text">
+                    <h3 class="task-title">Сложить в лукошко</h3>
+                    <p class="task-date">от 19.05.2022</p>
+                </div>
+                <button class="icon close-icon">✕</button>
+            </li>
+            <li class="task-item done">
+                <input type="checkbox" class="icon check-icon"/>
+                <div class="task-text">
+                    <h3 class="task-title">СложиааааааааааааАААААААААААААААААААААААААААААААААААААААААААААААть в лукошко</h3>
+                    <p class="task-date">от 19.05.2022</p>
+                </div>
+                <button class="icon close-icon">✕</button>
+            </li>
+            <li class="task-item done">
+                <input type="checkbox" class="icon check-icon"/>
+                <div class="task-text">
+                    <h3 class="task-title">Сложить в лукошко</h3>
+                    <p class="task-date">от 19.05.2022</p>
+                </div>
+                <button class="icon close-icon">✕</button>
+            </li>
+             <li class="task-item">
+                <input type="checkbox" class="icon check-icon"/>
+                <div class="task-text">
+                    <h3 class="task-title">Сложить в лукошко</h3>
+                    <p class="task-date">от 19.05.2022</p>
+                </div>
+                <button class="icon close-icon">✕</button>
+
+            </li>
+             <li class="task-item">
+                <input type="checkbox" class="icon check-icon"/>
+                <div class="task-text">
+                    <h3 class="task-title">Сложить в лукошко</h3>
+                    <p class="task-date">от 19.05.2022</p>
+                </div>
+                <button class="icon close-icon">✕</button>
+            </li>
+            <li class="task-item done">
+                <input type="checkbox" class="icon check-icon"/>
+                <div class="task-text">
+                    <h3 class="task-title">Сложить в лукошко</h3>
+                    <p class="task-date">от 19.05.2022</p>
+                </div>
+                <button class="icon close-icon">✕</button>
+            </li>
+             <li class="task-item">
+                <input type="checkbox" class="icon check-icon"/>
+                <div class="task-text">
+                    <h3 class="task-title">Сложить в лукошко</h3>
+                    <p class="task-date">от 19.05.2022</p>
+                </div>
+                <button class="icon close-icon">✕</button>
+            </li></ul>
         </div>
+    </main>
 
-    </div>
+    <footer>
+        <div class="">
+            <hr>
+            <p class="copyright">&copy; 2024 Все права защищены</p>
+        </div>
+    </footer>
+
+
 </body>
-<footer>
-
-</footer>
 </html>
