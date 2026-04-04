@@ -5,21 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
 
-  padding: 1.5rem 6rem;
-}
-
-.logo {
-  font-size: 20px;
-  font-weight: 700;
-
-  text-decoration: none;
-
-  & .logoLeft {
-    color: #FF6B6B;
-  }
-  & .logoRight {
-    color: #313131;
-  }
+  padding: $padding-global;
 }
 
 .navigation {

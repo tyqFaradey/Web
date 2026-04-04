@@ -1,0 +1,18 @@
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: $font-main;
+  color: $color-background;
+
+  background-color: $color-acient;
+
+  border-width: 0px;
+  border-radius: 30px;
+
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: color-mix(in oklab, $color-acient, white 20%);
+  }
+}

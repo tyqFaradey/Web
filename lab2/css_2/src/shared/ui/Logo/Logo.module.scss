@@ -1,0 +1,13 @@
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+
+  text-decoration: none;
+
+  & .logoLeft {
+    color: #ff6b6b;
+  }
+  & .logoRight {
+    color: #313131;
+  }
+}
