@@ -1,0 +1,33 @@
+
+
+.section {
+  display: flex;
+  flex-direction: column;
+
+  background-image: url('/home/dallix/Web/lab2/css_2/src/assets/Photo.png');
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.subTitle {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+
+  background-color: #FF6B6B;
+
+  border-width: 0px;
+  border-radius: 30px;
+
+  padding: 10px 20px;
+}
