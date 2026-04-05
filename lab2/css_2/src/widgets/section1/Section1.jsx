@@ -1,8 +1,8 @@
-import Button from "@/shared/ui/Button/Button";
+import Button from "@/shared/ui/Button";
 
 import styles from "./Section1.module.scss";
 
-import bgImage from "@/assets/Photo.png";
+import bgImage from "@/assets/section1_bg_img.png";
 
 function Section1() {
   return (

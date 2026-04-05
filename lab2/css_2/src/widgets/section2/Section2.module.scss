@@ -1,0 +1,29 @@
+.section {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: $padding-global;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+}
+
+.img {
+}
