@@ -5,8 +5,6 @@ import Title from "@/shared/ui/Title";
 
 import styles from "./Section2.module.scss";
 
-import image from "@/assets/section2_img.png";
-
 function Section2() {
   return (
     <Section>
@@ -33,7 +31,11 @@ function Section2() {
           </p>
           <Button className={styles.button}>Связаться с нами</Button>
         </div>
-        <img src={image} alt="img" className={styles.img} />
+        <img
+          src="/public/assets/section2/image.png"
+          alt="img"
+          className={styles.img}
+        />
       </div>
     </Section>
   );
