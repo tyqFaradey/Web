@@ -10,8 +10,6 @@
   border-radius: 8px;
 
   box-shadow: 0 4px 8px #00000033;
-
-  overflow: hidden;
 }
 
 .image {
@@ -25,6 +23,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  flex-grow: 1;
+
   padding: 1rem;
 }

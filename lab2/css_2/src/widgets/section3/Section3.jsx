@@ -3,6 +3,8 @@ import SectionTitle from "@/shared/ui/SectionTitle";
 
 import PhotoCarousel from "@/shared/ui/PhotoCarousel";
 
+import styles from "./Section3.module.scss";
+
 function Section3() {
   const slides = [
     {
@@ -19,7 +21,7 @@ function Section3() {
   ];
 
   return (
-    <Section>
+    <Section className={styles.section}>
       <SectionTitle>Наши лучшие предложения</SectionTitle>
 
       <PhotoCarousel slides={slides} />
