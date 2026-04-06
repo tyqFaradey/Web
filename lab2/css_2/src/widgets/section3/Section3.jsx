@@ -1,7 +1,6 @@
 import Section from "@/shared/ui/Section";
 import SectionTitle from "@/shared/ui/SectionTitle";
 
-
 import PhotoCarousel from "@/shared/ui/PhotoCarousel";
 
 function Section3() {
