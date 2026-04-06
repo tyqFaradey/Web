@@ -7,13 +7,13 @@ import PhotoCarousel from "@/shared/ui/PhotoCarousel";
 function Section3() {
   const slides = [
     {
-      image: "/public/assets/section3/Edinburgh.png",
+      image: "/assets/section3/Edinburgh.png",
       text: "Эдинбург, Шотландия",
       caption:
         "Столица шотландии не оставит равнодушными любителей средневековья",
     },
     {
-      image: "/public/assets/section3/NewYork.png",
+      image: "/assets/section3/NewYork.png",
       text: "21212121212",
       caption: "Свваыапывпрапрневековья",
     },

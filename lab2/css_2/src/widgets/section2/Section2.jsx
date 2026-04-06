@@ -32,7 +32,7 @@ function Section2() {
           <Button className={styles.button}>Связаться с нами</Button>
         </div>
         <img
-          src="/public/assets/section2/image.png"
+          src="/assets/section2/image.png"
           alt="img"
           className={styles.img}
         />

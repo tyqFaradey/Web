@@ -7,7 +7,7 @@ function Section1() {
     <Section className={styles.section}>
       <img
         className={styles.backgroundImg}
-        src="/public/assets/section1/background.png"
+        src="/assets/section1/background.png"
         alt="background image"
       />
 
