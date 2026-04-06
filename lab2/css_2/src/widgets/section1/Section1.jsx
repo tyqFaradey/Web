@@ -1,12 +1,12 @@
 import Button from "@/shared/ui/Button";
-
+import Section from "@/shared/ui/Section";
 import styles from "./Section1.module.scss";
 
 import bgImage from "@/assets/section1_bg_img.png";
 
 function Section1() {
   return (
-    <section className={styles.section}>
+    <Section className={styles.section}>
       <img src={bgImage} alt="background" className={styles.backgroundImg} />
 
       <div className={styles.content}>
@@ -16,7 +16,7 @@ function Section1() {
         </p>
         <Button className={styles.button}>Выбрать тур</Button>
       </div>
-    </section>
+    </Section>
   );
 }
 
