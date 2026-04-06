@@ -1,9 +1,9 @@
 import styles from "./Logo.module.scss";
 
-function Logo({ href, className }) {
+function Logo({ className, ...props }) {
   const combinedClassName = `${styles.logo} ${className || ""}`.trim();
   return (
-    <a href={href} className={combinedClassName}>
+    <a className={combinedClassName} {...props}>
       <span className={styles.logoLeft}>Travel</span>
       <span className={styles.logoRight}>World</span>
     </a>
