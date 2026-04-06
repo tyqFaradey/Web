@@ -1,0 +1,88 @@
+@use "sass:color";
+
+.carusel {
+  position: relative;
+  width: 80%;
+  height: 400px;
+}
+
+.controls {
+  position: absolute;
+
+  top: 50%;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 1rem;
+  z-index: 10;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 36px;
+  height: 36px;
+
+  font-size: 24px;
+
+  color: $color-text;
+  background-color: color.change($color-background, $alpha: 0.3);
+
+  border: none;
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: color.change($color-background, $alpha: 0.6);
+  }
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+
+.description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  color: $color-background;
+  background-color: color.change(#000000, $alpha: 0.6);
+
+  padding: 20px 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+  p {
+    &:first-child {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    &:last-child {
+      font-weight: 500;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import Header from "@/widgets/header/Header";
-import Section1 from "@/widgets/section1/Section1";
-import Section2 from "@/widgets/section2/Section2";
+import Section1 from "@/widgets/section1";
+import Section2 from "@/widgets/section2";
+import Section3 from "@/widgets/section3";
 
 function MainPage() {
   return (
@@ -8,6 +9,7 @@ function MainPage() {
       <Header />
       <Section1 />
       <Section2 />
+      <Section3 />
     </>
   );
 }

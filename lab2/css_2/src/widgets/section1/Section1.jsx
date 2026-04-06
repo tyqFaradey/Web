@@ -6,9 +6,9 @@ function Section1() {
   return (
     <Section className={styles.section}>
       <img
-        src="/public/assets/section1/background.png"
-        alt="background"
         className={styles.backgroundImg}
+        src="/public/assets/section1/background.png"
+        alt="background image"
       />
 
       <div className={styles.content}>
