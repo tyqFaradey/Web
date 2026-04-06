@@ -4,6 +4,7 @@ import Section2 from "@/widgets/section2";
 import Section3 from "@/widgets/section3";
 import Section4 from "@/widgets/section4";
 import Section5 from "@/widgets/section5";
+import Section6 from "@/widgets/section6";
 
 function MainPage() {
   return (
@@ -14,6 +15,7 @@ function MainPage() {
       <Section3 />
       <Section4 />
       <Section5 />
+      <Section6 />
     </>
   );
 }
