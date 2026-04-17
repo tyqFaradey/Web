@@ -1,0 +1,40 @@
+.card {
+  border-radius: 16px;
+  padding: 32px;
+  background: $background-color-1;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+
+  width: 450px;
+}
+
+.header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  color: $text-title-color;
+  font-size: $font-size-text-major;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: $font-size-text;
+  color: $text-color;
+  font-weight: 400;
+}
+
+.text {
+  font-size: $font-size-text;
+  color: $text-color;
+  font-weight: 300;
+}

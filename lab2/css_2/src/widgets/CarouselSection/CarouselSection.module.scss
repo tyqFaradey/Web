@@ -1,0 +1,16 @@
+.section {
+  background-color: $background-color-2;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+}
+
+.carousel {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.16);
+}

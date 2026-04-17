@@ -1,0 +1,19 @@
+.section {
+  --title-size: #{$font-size-title-major};
+  --title-color: #{$text-alt-color};
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: $text-alt-color;
+}
+
+.text {
+  font-size: $font-size-text;
+  font-weight: 400;
+
+  margin-bottom: $title-margin;
+}

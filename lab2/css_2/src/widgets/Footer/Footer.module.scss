@@ -1,0 +1,23 @@
+@use "sass:color";
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 60px;
+
+  padding: 40px;
+
+  background-color: $background-color-alt;
+}
+
+.title {
+  color: $text-acient-color;
+  font-weight: 700;
+}
+
+.copyright {
+  color: color.mix($text-color, white, $method: rgb);
+}

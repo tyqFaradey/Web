@@ -1,0 +1,37 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+
+  gap: 50px;
+}
+
+.leftPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  line-height: 170%;
+}
+
+.title {
+  color: $text-title-color;
+  font-size: $font-size-title-minor;
+
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: $font-size-text;
+
+  & * {
+    margin-bottom: 20px;
+  }
+}
+
+.image {
+  width: auto;
+  height: 460px;
+  border-radius: 10px;
+}

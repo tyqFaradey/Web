@@ -1,0 +1,36 @@
+@use "sass:color";
+
+$_background-color: $background-acient-color;
+$_foreground-color: $text-alt-color;
+
+$_horizontal-padding: 16px;
+$_vertical-padding: 40px;
+
+.button {
+  padding: $_horizontal-padding $_vertical-padding;
+
+  font-size: $font-size-text;
+  font-weight: 500;
+  font-family: $fonts-base;
+
+  border-width: 0px;
+  border-radius: calc($_vertical-padding * 2);
+
+  color: $_foreground-color;
+  background-color: $_background-color;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: color.mix($_background-color, white, 80%, rgb);
+  }
+}
+
+.inactive {
+  color: $text-title-color;
+  background-color: $background-color-2;
+
+  &:hover {
+    background-color: color.mix($background-color-2, black, 90%, rgb);
+  }
+}

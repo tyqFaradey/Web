@@ -1,0 +1,43 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+
+  width: 100%;
+
+  gap: 50px;
+}
+
+.leftPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.title {
+  color: $text-title-color;
+  font-size: $font-size-title-minor;
+
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: $font-size-text;
+  padding-left: 20px;
+
+  & *:not(br) {
+    margin-bottom: 20px;
+  }
+}
+
+.button {
+  font-size: $font-size-text-minor;
+  padding: 12px 30px;
+}
+
+.map {
+  border-radius: 10px;
+  box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.3);
+}
