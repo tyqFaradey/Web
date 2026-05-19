@@ -4,25 +4,37 @@ import { Button } from "@/shared/ui/Button";
 
 import styles from "./Buttons.module.scss";
 
-function Buttons({ buttons, buttonClassName, className, ...props }) {
-  const combinedClassName = `${styles.list} ${className || ""}`.trim();
+export default function Buttons({
+    buttons,
+    onClick,
+    buttonClassName,
+    className,
+    ...props
+}) {
+    const combinedClassName = `${styles.list} ${className || ""}`.trim();
 
-  const [activeIndex, setActiveIndex] = useState(0);
+    const [activeIndex, setActiveIndex] = useState(0);
 
-  return (
-    <div className={combinedClassName} {...props}>
-      {buttons.map((text, index) => (
-        <Button
-          className={buttonClassName}
-          key={index}
-          isActive={activeIndex === index}
-          onClick={() => setActiveIndex(index)}
-        >
-          {text}
-        </Button>
-      ))}
-    </div>
-  );
+    const handleClick = (index, text) => {
+        setActiveIndex(index);
+
+        if (onClick) {
+            onClick(index, text);
+        }
+    };
+
+    return (
+        <div className={combinedClassName} {...props}>
+            {buttons.map((text, index) => (
+                <Button
+                    className={buttonClassName}
+                    key={index}
+                    isActive={activeIndex === index}
+                    onClick={() => handleClick(index, text)}
+                >
+                    {text}
+                </Button>
+            ))}
+        </div>
+    );
 }
-
-export default Buttons;
