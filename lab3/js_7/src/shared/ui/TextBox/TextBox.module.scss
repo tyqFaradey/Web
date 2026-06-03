@@ -1,0 +1,15 @@
+.textBox {
+  padding: 10px 14px;
+
+  font-size: 16px;
+  
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  
+  outline: none;
+  transition: border-color 0.2s;
+
+  &:focus {
+    border-color: $background-acient-color;
+  }
+}

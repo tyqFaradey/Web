@@ -1,0 +1,11 @@
+.toolBar {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+
+  width: 100%;
+}
+
+.titleField {
+  flex-grow: 1;
+}

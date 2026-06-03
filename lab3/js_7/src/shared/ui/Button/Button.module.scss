@@ -1,0 +1,46 @@
+@use "sass:color";
+
+$_background-color: $background-acient-color;
+$_foreground-color: $text-alt-color;
+
+$_horizontal-padding: 10px;
+$_vertical-padding: 14px;
+
+.button {
+  padding: $_horizontal-padding $_vertical-padding;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+  font-size: $font-size-text-minor;
+  font-weight: 500;
+  font-family: $fonts-base;
+
+  border-width: 0px;
+  border-radius: 8px;
+
+  color: $_foreground-color;
+  background-color: $_background-color;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: color.mix($_background-color, white, 80%, rgb);
+  }
+}
+  
+.outlined {
+  background-color: transparent;
+
+  padding: calc($_horizontal-padding - 1px) calc($_vertical-padding - 1px);
+
+  border: 1px solid $_background-color;
+  color: $_background-color;
+
+  &:hover {
+    background-color: $_background-color;
+    color: $_foreground-color;
+  }
+}
